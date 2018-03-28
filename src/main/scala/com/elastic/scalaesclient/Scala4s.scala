@@ -80,7 +80,7 @@ object Scala4s extends App {
 //  client.close()
 //  client.execute { deleteIndex("_all") } // Deletes ALL indices!
   // Or alternatively:
-  client.execute { delete index "movies" }
+//   client.execute { delete index "movies" }
 //  client.execute { delete index ("bands", "countries") } // Deletes two indices
 //  AWGeNsTN56MxXjnK59Nt
 }
